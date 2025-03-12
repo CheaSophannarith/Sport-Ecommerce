@@ -21,6 +21,7 @@ return new class extends Migration
             $table->string('city')->nullable();
             $table->string('country')->nullable();
             $table->string('zip_code')->nullable();
+            $table->string('phone')->nullable();
             $table->string('profile_image')->nullable();
             $table->boolean('profile_completed')->default(false);
             $table->softDeletes();
